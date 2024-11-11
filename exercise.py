@@ -78,7 +78,7 @@ for i in a:
 print(b)"""
 
 
-#Rainbow circle using pthon
+#Rainbow circle using python
 
 """import turtle
 
