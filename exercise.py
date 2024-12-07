@@ -435,9 +435,9 @@ f1.close()
 
 f3=open("myfile2.txt","r")
 print(f3.read())
-f3.close()"""
+f3.close()
 
-"""class goa():
+    class goa():
     def __init__(self,name):
         self.name= name
 
@@ -456,7 +456,7 @@ activity=input("What do you want to do? (party/beach): ")
 
 a=goa(n)
 print(a.name)
-a.decide_act(activity)"""
+a.decide_act(activity)
 
 
 class person():
@@ -508,7 +508,10 @@ print(f"Marks: {obj.marks}")
 
 obj.eating()
 obj.play()
-obj.studing()
+obj.studing()"""
+
+
+
 
 
 
