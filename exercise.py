@@ -514,7 +514,20 @@ obj.studing()"""
 
 
 
+from abc import ABC
 
+class computer(ABC):
+    @abstractmethod
+    def processor(self):
+        print("i am processor")
+
+class laptop(computer):
+    def processor(self):
+        print("pc")
+
+
+obj=laptop()
+obj.processor()
 
 
 
